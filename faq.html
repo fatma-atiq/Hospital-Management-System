@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF8">
+<title>TeleHealth monitoring system</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+<link rel="shortcut icon" type="image/jpeg" href="img/mricon.png">
+<link rel="stylesheet" href="css/font/css/all.min.css"/>
+<link rel="stylesheet" href="css/self.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/normalize.css"/>
+<!--[if lt IE9]>
+<script src="js/html5shiv.min.js"></script>
+
+<![end if]-->
+
+
+   
+     
+   <style>
+   #background{
+          width:100%;
+           height:700px;
+       background-image:url(img/telem.jpeg); 
+       background-attachment:fixed;
+        background-repeat:no-repeat;
+        background-size:cover;
+         text-align:center;
+         
+       }   
+    .hmr{
+      
+       padding-top:10px;
+       text-align:center;
+       position:absolute;
+       left:50%;
+        top:50%;
+      transform:translate(-50%,-50%);
+      font-family:teal;
+      font-size:xx-large;
+      font-weight:bolder;
+      }
+          
+       
+   
+   </style>    
+ </head>
+ 
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"  class="navbar navbar-default navbar-fixed-top" >
+      <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <span style="color: rgb(12, 110, 110); font-size: 40px; font-weight: bolder; font-family:fantasy">S</span>
+      <span style="color: rgb(64, 219, 219); font-size: 30px; font-weight: bolder; font-family:fantasy">oo</span>
+      <span style="color: rgb(12, 110, 110); font-size: 40px; font-weight: bolder;font-family:fantasy">V</span>
+      <span style="color: rgb(64, 219, 219); font-size: 30px; font-weight: bolder;font-family:fantasy">id</span>
+      <img src="img/mricon.png" width="30" height="30">
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp;
+      
+   
+     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+  
+        <ul class="navbar-nav mr-auto">
+          
+         
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+            </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Log As A Patient
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="existp.html">Existing Patient</a>
+              <a class="dropdown-item" href="newp.html">New Patient</a>
+             
+            </div>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="doclog.html">Log As A Doctor</a>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="forproviders.html">For Providers</a>
+                </li>
+               
+                  <li class="nav-item">
+                    <a class="nav-link" href="medicalrecord.html">Medical Record</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="departments.html">Departments</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="payment.html">payment</a>
+                        </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="logout.html">Log Out</a>
+                    </li>
+          </li>
+        </ul>
+    
+   
+    </nav>
+  <div class="fluid" id="background">
+  <!--  <h1>Frequantely asked questions</h1>-->
+  </div>
+  <div class="row">
+  <h1 class="hmr" style="font-family: cursive; font-weight: bolder; color: teal;">Frequantely Asked Questions</h1>
+  </div>
+    <br><br>
+  
+      <section class="container">
+        <a name="bill"></a>
+    <div style="line-height: 20px;">
+        <div class="row">
+    <div class="col-12">
+       <h5 id="h1" style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - What is telehealth?</h5>
+       <p class="pmr" id="p1" >The delivery of health care, health education, and health information services<br> via remote technologies.</p>
+    </div>
+  </div>
+  
+   <div class="row">
+    <div class="col-12">
+     <h5 id="h2" style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - What is Smart Patients?</h5>
+     <p class="pmr" id="p2">Smart Patients is an online community where patients and their families learn from each other<br> 
+   about treatments, challenges, and how it all fits into the context of their experience.</p>
+  </div>
+  </div>
+  
+   <div class="row">
+    <div class="col-12">
+     <h5 id="h3" style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - What kind of issues can we talk about here?</h5>
+     <p class="pmr"id="p3">Your illness, treatments and side effects, where to find help, how to cope with disease, clinical<br> 
+   trials, research into disease and treatments, prevention, recurrence, end of life, grieving, and<br>
+   related topics are all important topics members can help each other with. Some general-interest<br>
+   discussion is okay, but it shouldn’t overshadow the main purpose of the site.
+   </p>
+  </div>
+  </div>
+   
+  <div class="row">
+    <div class="col-12">
+       <h5 id="h4" style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - How will I communicate with my counselor?</h5>
+        <p class="pmr"id="p4">You can get counseling in these ways:
+         <ul class="ulmr">
+         <li> Exchanging messages with your counselor</li>
+          <li> Chatting live with your counselor</li>
+             <li>Speaking over the phone with your counselor</li>
+             <li> Video conferencing with your counselor</li>
+            </ul>
+             </p>
+            </div>
+      </div>
+  
+   
+ <div class="row">
+    <div class="col-12">
+       <h5 id="h5" style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - How does messaging work?</h5>
+        <p class="pmr"id="p5">Once you are matched to a counselor, you and your counselor will get a dedicated "room",<br>
+      which will be your private and secure place to communicate. In this room, you will write about<br>
+     yourself, the things going on in your life, ask questions and discuss the issues that trouble you.<br>
+    Your counselor will then read your messages, and respond with questions, feedback, insights, and guidance.</p>
+  </div>
+  </div>
+  
+  
+  <div class="row">
+    <div class="col-12">
+  <h5 id="h6"style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - How do live chat sessions work?</h5>
+  <p class="pmr"id="p6">You will sometimes want to have a text conversation with your counselor in real-time. This way you can still enjoy the<br>
+  convenience and privacy of messaging but also enjoy a "live" interaction that allows instant response and feedback from<br>
+  your counselor.
+  </p>
+  </div>
+  </div>
+   
+    
+  
+ <div class="row">
+    <div class="col-12">
+   <h5 id="h7"style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - Can I go back and read the counselor's previous messages?</h5>
+    <p class="pmr"id="p7">Yes. You can always login to your account and read all the counselor's messages to you. This may help you in reflecting<br>
+   and remembering some of the guidance and input that you received. This is one of the main advantages of e-counseling.
+    </p>
+  </div>
+  </div>
+  
+ <div class="row">
+    <div class="col-12">
+   <h5 id="h8" style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - How much does it cost?</h5>
+    <p class="pmr"id="p8">The cost of counseling through our site ranges from $60 to $80 per week (billed every 4 weeks). You can cancel your<br>
+  membership at any time for any reason.
+    </p>
+  </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12">
+   <h5 id="h9"style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - How will I pay for my membership?</h5>
+    <p class="pmr" id="p9">Your membership payments will be charged to a credit card or PayPal on a recurring basis. If you accomplish your goals,<br>
+     or if you find online counseling with our site to no longer be helpful for any reason, you can simply cancel the subscription.
+    </p>
+  </div>
+  </div>
+  
+    <div class="row">
+    <div class="col-12">
+   <h5 id="h10"style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - What is the role of this site?</h5>
+    <p class="pmr"id="p10">The service is provided by independent providers who work directly with you. These providers are not employees of<br>
+    the site and the site doesn't oversee them professionally. Our mission is to build, maintain, and support a platform<br>
+  that lets users and counselors communicate effectively, and to facilitate this channel so they can get the most out of their<br>
+  interaction.
+    </p>
+  </div>
+  </div>
+  
+     <div class="row">
+    <div class="col-12">
+   <h5 id="h11"style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - Is there advertising on the site?</h5>
+    <p class="pmr"id="p11">No advertising, no marketing. Not by us, not by you.</p>
+  </div>
+  </div>
+  
+    <div class="row">
+    <div class="col-12">
+   <h5 id="h12"style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - Can I stay anonymous?</h5>
+    <p class="pmr" id="p12">No,when you login ,you should enter your personal information <br>
+  </p>
+  </div>
+  </div>
+  
+    <div class="row">
+    <div class="col-12">
+   <h5 id="h13"style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - How is my privacy protected?</h5>
+    <p class="pmr" id="p13">We are totally obsessed about securing your privacy and confidentiality. We have built a state-of-the-art technology,<br>
+  operation, and infrastructure with one thing in mind: protecting your privacy and safeguarding the information you<br>
+  provide. Our privacy and confidentiality standards are by far more advanced than what is required by law or regulations,
+  <br>
+  so you can feel safe and comfortable.
+    </p>
+  </div>
+  </div>
+  
+   
+ <div class="row">
+    <div class="col-12">
+   <h5 id="h14"style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;"> - I signed up. How long until I'm matched with a counselor?</h5>
+    <p class="pmr" id="p14">This process can take a few hours or a few days, depending on counselor availability. Don't worry, your subscription<br>
+      period starts when you are matched with a counselor.
+    </p>
+  </div>
+  </div>
+</div>
+  </section>
+  <br>
+ 
+   <!--/ video-->
+   <video width="100%" controls>
+    <source src="img/vv.mp4" type="video/mp4">
+ </video>
+<!--/ video-->
+<br>
+<!--footer-->
+<footer id="footer" style="font-weight: normal; font-family: 'Times New Roman', Times, serif;">
+  <div class="top-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 marb20">
+          <div class="ftr-tle">
+            <h4 class="white no-padding">About Us</h4>
+          </div>
+          <div class="info-sec">
+            <p>Monitoring programs can collect a wide range of health data from the point of care, such as vital signs, weight, blood pressure, blood sugar, blood oxygen levels, heart rate, and electrocardiograms.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 marb20">
+          <div class="ftr-tle">
+            <h4 class="white no-padding">Quick Links</h4>
+          </div>
+          <div class="info-sec">
+            <ul class="quick-info">
+              
+              
+              <li><a href="#bill"><i class="fa fa-circle"></i>FAQ</a></li>
+              <li><a href="#top"><i class="fa fa-circle"></i>Go To Top</a></li>
+              <li><a href="complain.html"><i class="fa fa-circle"></i>Complains</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 marb20">
+          <div class="ftr-tle">
+            <h4 class="white no-padding">Follow us</h4>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-6 text-center">
+          <div class="info-sec">
+            <ul class="social-icon">
+              <li class="bglight-blue"><i class="fab fa-facebook-f"></i></li>
+              <li class="bgred"><i class="fab fa-google"></i></li>
+              <li class="bgdark-blue"><i class="fab fa-linkedin-in"></i></li>
+              <li class="bglight-blue"><i class="fab fa-twitter"></i></li>
+            </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-line">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          © Copyright SooVid. All Rights Reserved
+          <div class="credits">
+          
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--/ footer-->
+
+
+</div>
+
+  
+  </body>
+  
+  
+  
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/debug.js"></script> 
+   </html>
+   
